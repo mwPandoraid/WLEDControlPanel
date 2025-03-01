@@ -15,8 +15,9 @@ const uint8_t ENCODER_PIN1 = 21;
 const uint8_t ENCODER_PIN2 = 22;
 const uint8_t ENCODER_BTN = 4;
 
-const char* ssid = "SSID";
-const char* password = "PWD";
+const char* ssid = "PLAY internet 2.4GHz_6EF2";
+const char* password = "internetskr123";
+const char* wledHost = "192.168.100.250";
 
 GUI gui;
 //Encoder *rotaryEncoder;

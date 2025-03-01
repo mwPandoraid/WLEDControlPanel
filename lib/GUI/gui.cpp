@@ -13,4 +13,5 @@ void GUI::handle(){
 
 void GUI::set_window(func_ptr func) {
   GUI::gui_func_ptr = func;
+  GUI::tft.fillScreen(TFT_BLACK); // we want to clear the screen fully when switching
 }

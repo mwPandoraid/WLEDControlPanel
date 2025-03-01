@@ -22,6 +22,9 @@ void loadingMenuLoop(TFT_eSPI &tft) {
     } else {
       i += 5;
     }
+    if(WiFi.status() == 1) {
+      ESP.restart();
+    }
   }
 }
 
